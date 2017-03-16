@@ -6,15 +6,15 @@ package net.ukr.kekos222;
 public abstract class Animal {
     protected String name;
 
-    public void run(){}
+    public abstract void run();
 
-    public void jump(){}
+    public abstract void jump();
 
-    public void voice(){}
+    public abstract void voice();
 
-    public void bite(){}
+    public abstract void bite();
 
-    public void consoleName(){}
+    public abstract void consoleName();
 
 
 }
