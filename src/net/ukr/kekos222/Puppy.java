@@ -11,12 +11,12 @@ public class Puppy extends Dog {
 
     @Override
     public void voice(){
-        System.out.println("Can't bark yet");
+        System.out.println("I can't bark yet, i'm just a puppy");
     }
 
     @Override
     public void bite(){
-        System.out.println("Can't bite yet");
+        System.out.println("I can't bite yet, puppies can't bite");
     }
 }
 
